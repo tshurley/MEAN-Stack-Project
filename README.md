@@ -1,22 +1,23 @@
 # MEAN-Stack-Project
 
-This frontend was generated with Angular CLI version 1.3.0.
+This frontend was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
 
 This project adds a server side to the Angular 4 Tour of Heroes tutorial and it uses the MEAN stack:
+* [**M**ongoose.js](http://www.mongoosejs.com) ([MongoDB](https://www.mongodb.com)): database
+* [**E**xpress.js](http://expressjs.com): backend framework
+* [**A**ngular 4+](https://angular.io): frontend framework
+* [**N**ode.js](https://nodejs.org): runtime environment
 
-Mongoose.js (MongoDB): database
-Express.js: backend framework
-Angular 4+: frontend framework
-Node.js: runtime environment
-Prerequisites
-Install Node.js and MongoDB
-Install Angular CLI: npm i -g @angular/cli
-From project root folder install all the dependencies: npm i
-Run
-Development mode
-npm run dev: concurrently execute MongoDB, Angular build, TypeScript compiler and Express server.
+## Prerequisites
+1. Install [Node.js](https://nodejs.org) and [MongoDB](https://www.mongodb.com)
+2. Install Angular CLI: `npm i -g @angular/cli`
+3. From project root folder install all the dependencies: `npm i`
 
-A window will automatically open at localhost:4200. Angular and Express files are being watched. Any change automatically creates a new bundle, restart Express server and reload your browser.
+## Run
+### Development mode
+`npm run dev`: [concurrently](https://github.com/kimmobrunfeldt/concurrently) execute MongoDB, Angular build, TypeScript compiler and Express server.
 
-Production mode
-npm run prod: run the project with a production bundle and AOT compilation listening at localhost:3000
+A window will automatically open at [localhost:4200](http://localhost:4200). Angular and Express files are being watched. Any change automatically creates a new bundle, restart Express server and reload your browser.
+
+### Production mode
+`npm run prod`: run the project with a production bundle and AOT compilation listening at [localhost:3000](http://localhost:3000) 
