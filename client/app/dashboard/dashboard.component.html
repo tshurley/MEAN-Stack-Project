@@ -1,0 +1,7 @@
+<app-chore-search></app-chore-search>
+<h1>Summary of Chores</h1>
+<div class="collection">
+  <a *ngFor="let chore of chores" [routerLink]="['/detail', chore._id]" class="collection-item">
+    <span>{{chore.name}}</span>
+  </a>
+</div>
